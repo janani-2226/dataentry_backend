@@ -7,6 +7,7 @@ const dotenv= require("dotenv").config();
 
 const url = process.env.DB;
 
+
 app.use(
     cors({
         origin:"http://localhost:3000"
