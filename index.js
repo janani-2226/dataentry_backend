@@ -10,7 +10,7 @@ const url = process.env.DB;
 
 app.use(
     cors({
-        origin:"http://localhost:3000"
+        origin:"https://data-entry-35p7.vercel.app"
     })
 )
 
