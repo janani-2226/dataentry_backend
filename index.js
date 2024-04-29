@@ -10,7 +10,7 @@ const url = process.env.DB;
 
 app.use(
     cors({
-        origin:"https://emp-attendance.vercel.app/"
+        origin:"https://emp-attendance.vercel.app"
     })
 )
 
